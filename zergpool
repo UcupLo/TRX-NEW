@@ -4,4 +4,4 @@ sudo apt install libpci3
 sudo wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.31/lolMiner_v1.31_Lin64.tar.gz
 tar -xf lolMiner_v1.31_Lin64.tar.gz
 cd 1.31
-sudo ./lolMiner --algo ETHASH --pool eu.ezil.me:5555 --user 0xf7ca3f453c40ae7590ee613e643c6af279672c17.zil1ncev603qs04vzew8zx44mmy34u0ancvj520pd7.ZIL --ethstratum ETHPROXY
+sudo ./lolMiner -a ethash -o stratum+tcp://ethash.eu.mine.zergpool.com:9999 -u 0x2a1a513011fd92781fde8fd7aa95d3c2b1fa12ea -p  c=ETH,ID=Ajay --ethstratum ETHPROXY
